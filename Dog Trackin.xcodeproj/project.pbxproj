@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A35DD6072F6C3B2D0004A5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A35DD5EF2F6C3B2C0004A5F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A35DD5F62F6C3B2C0004A5F6;
+			remoteInfo = "Dog Trackin";
+		};
+		A35DD6112F6C3B2D0004A5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A35DD5EF2F6C3B2C0004A5F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A35DD5F62F6C3B2C0004A5F6;
+			remoteInfo = "Dog Trackin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A35DD5F72F6C3B2C0004A5F6 /* Dog Trackin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Trackin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35DD6062F6C3B2D0004A5F6 /* Dog TrackinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog TrackinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35DD6102F6C3B2D0004A5F6 /* Dog TrackinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog TrackinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A35DD5F92F6C3B2C0004A5F6 /* Dog Trackin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Dog Trackin";
+			sourceTree = "<group>";
+		};
+		A35DD6092F6C3B2D0004A5F6 /* Dog TrackinTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Dog TrackinTests";
+			sourceTree = "<group>";
+		};
+		A35DD6132F6C3B2D0004A5F6 /* Dog TrackinUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Dog TrackinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A35DD5F42F6C3B2C0004A5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35DD6032F6C3B2D0004A5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35DD60D2F6C3B2D0004A5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A35DD5EE2F6C3B2C0004A5F6 = {
+			isa = PBXGroup;
+			children = (
+				A35DD5F92F6C3B2C0004A5F6 /* Dog Trackin */,
+				A35DD6092F6C3B2D0004A5F6 /* Dog TrackinTests */,
+				A35DD6132F6C3B2D0004A5F6 /* Dog TrackinUITests */,
+				A35DD5F82F6C3B2C0004A5F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A35DD5F82F6C3B2C0004A5F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A35DD5F72F6C3B2C0004A5F6 /* Dog Trackin.app */,
+				A35DD6062F6C3B2D0004A5F6 /* Dog TrackinTests.xctest */,
+				A35DD6102F6C3B2D0004A5F6 /* Dog TrackinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A35DD5F62F6C3B2C0004A5F6 /* Dog Trackin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A35DD61A2F6C3B2D0004A5F6 /* Build configuration list for PBXNativeTarget "Dog Trackin" */;
+			buildPhases = (
+				A35DD5F32F6C3B2C0004A5F6 /* Sources */,
+				A35DD5F42F6C3B2C0004A5F6 /* Frameworks */,
+				A35DD5F52F6C3B2C0004A5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A35DD5F92F6C3B2C0004A5F6 /* Dog Trackin */,
+			);
+			name = "Dog Trackin";
+			packageProductDependencies = (
+			);
+			productName = "Dog Trackin";
+			productReference = A35DD5F72F6C3B2C0004A5F6 /* Dog Trackin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A35DD6052F6C3B2D0004A5F6 /* Dog TrackinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A35DD61D2F6C3B2D0004A5F6 /* Build configuration list for PBXNativeTarget "Dog TrackinTests" */;
+			buildPhases = (
+				A35DD6022F6C3B2D0004A5F6 /* Sources */,
+				A35DD6032F6C3B2D0004A5F6 /* Frameworks */,
+				A35DD6042F6C3B2D0004A5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A35DD6082F6C3B2D0004A5F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A35DD6092F6C3B2D0004A5F6 /* Dog TrackinTests */,
+			);
+			name = "Dog TrackinTests";
+			packageProductDependencies = (
+			);
+			productName = "Dog TrackinTests";
+			productReference = A35DD6062F6C3B2D0004A5F6 /* Dog TrackinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A35DD60F2F6C3B2D0004A5F6 /* Dog TrackinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A35DD6202F6C3B2D0004A5F6 /* Build configuration list for PBXNativeTarget "Dog TrackinUITests" */;
+			buildPhases = (
+				A35DD60C2F6C3B2D0004A5F6 /* Sources */,
+				A35DD60D2F6C3B2D0004A5F6 /* Frameworks */,
+				A35DD60E2F6C3B2D0004A5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A35DD6122F6C3B2D0004A5F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A35DD6132F6C3B2D0004A5F6 /* Dog TrackinUITests */,
+			);
+			name = "Dog TrackinUITests";
+			packageProductDependencies = (
+			);
+			productName = "Dog TrackinUITests";
+			productReference = A35DD6102F6C3B2D0004A5F6 /* Dog TrackinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A35DD5EF2F6C3B2C0004A5F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					A35DD5F62F6C3B2C0004A5F6 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					A35DD6052F6C3B2D0004A5F6 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = A35DD5F62F6C3B2C0004A5F6;
+					};
+					A35DD60F2F6C3B2D0004A5F6 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = A35DD5F62F6C3B2C0004A5F6;
+					};
+				};
+			};
+			buildConfigurationList = A35DD5F22F6C3B2C0004A5F6 /* Build configuration list for PBXProject "Dog Trackin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A35DD5EE2F6C3B2C0004A5F6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A35DD5F82F6C3B2C0004A5F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A35DD5F62F6C3B2C0004A5F6 /* Dog Trackin */,
+				A35DD6052F6C3B2D0004A5F6 /* Dog TrackinTests */,
+				A35DD60F2F6C3B2D0004A5F6 /* Dog TrackinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A35DD5F52F6C3B2C0004A5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35DD6042F6C3B2D0004A5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35DD60E2F6C3B2D0004A5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A35DD5F32F6C3B2C0004A5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35DD6022F6C3B2D0004A5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35DD60C2F6C3B2D0004A5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A35DD6082F6C3B2D0004A5F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A35DD5F62F6C3B2C0004A5F6 /* Dog Trackin */;
+			targetProxy = A35DD6072F6C3B2D0004A5F6 /* PBXContainerItemProxy */;
+		};
+		A35DD6122F6C3B2D0004A5F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A35DD5F62F6C3B2C0004A5F6 /* Dog Trackin */;
+			targetProxy = A35DD6112F6C3B2D0004A5F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A35DD6182F6C3B2D0004A5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FT9392G56L;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A35DD6192F6C3B2D0004A5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FT9392G56L;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A35DD61B2F6C3B2D0004A5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT9392G56L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.softwareofnote.dogtrackin.Dog-Trackin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A35DD61C2F6C3B2D0004A5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT9392G56L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.softwareofnote.dogtrackin.Dog-Trackin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A35DD61E2F6C3B2D0004A5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT9392G56L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.softwareofnote.dogtrackin.Dog-TrackinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog Trackin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dog Trackin";
+			};
+			name = Debug;
+		};
+		A35DD61F2F6C3B2D0004A5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT9392G56L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.softwareofnote.dogtrackin.Dog-TrackinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog Trackin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dog Trackin";
+			};
+			name = Release;
+		};
+		A35DD6212F6C3B2D0004A5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT9392G56L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.softwareofnote.dogtrackin.Dog-TrackinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dog Trackin";
+			};
+			name = Debug;
+		};
+		A35DD6222F6C3B2D0004A5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT9392G56L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.softwareofnote.dogtrackin.Dog-TrackinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dog Trackin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A35DD5F22F6C3B2C0004A5F6 /* Build configuration list for PBXProject "Dog Trackin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35DD6182F6C3B2D0004A5F6 /* Debug */,
+				A35DD6192F6C3B2D0004A5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A35DD61A2F6C3B2D0004A5F6 /* Build configuration list for PBXNativeTarget "Dog Trackin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35DD61B2F6C3B2D0004A5F6 /* Debug */,
+				A35DD61C2F6C3B2D0004A5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A35DD61D2F6C3B2D0004A5F6 /* Build configuration list for PBXNativeTarget "Dog TrackinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35DD61E2F6C3B2D0004A5F6 /* Debug */,
+				A35DD61F2F6C3B2D0004A5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A35DD6202F6C3B2D0004A5F6 /* Build configuration list for PBXNativeTarget "Dog TrackinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35DD6212F6C3B2D0004A5F6 /* Debug */,
+				A35DD6222F6C3B2D0004A5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A35DD5EF2F6C3B2C0004A5F6 /* Project object */;
+}
