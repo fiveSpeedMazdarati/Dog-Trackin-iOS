@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A35D8A5A2F76C3F7006B9251 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A35D8A592F76C3F7006B9251 /* FirebaseAnalytics */; };
+		A35D8A5C2F76C3F7006B9251 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = A35D8A5B2F76C3F7006B9251 /* FirebaseAnalyticsCore */; };
+		A35D8A5E2F76C3F7006B9251 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A35D8A5D2F76C3F7006B9251 /* FirebaseAuth */; };
+		A35D8A602F76C3F7006B9251 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A35D8A5F2F76C3F7006B9251 /* FirebaseAuthCombine-Community */; };
+		A35D8A622F76C3F7006B9251 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = A35D8A612F76C3F7006B9251 /* FirebaseCrashlytics */; };
+		A35D8A642F76C3F7006B9251 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A35D8A632F76C3F7006B9251 /* FirebaseDatabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A35DD6072F6C3B2D0004A5F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +61,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35D8A642F76C3F7006B9251 /* FirebaseDatabase in Frameworks */,
+				A35D8A5A2F76C3F7006B9251 /* FirebaseAnalytics in Frameworks */,
+				A35D8A5E2F76C3F7006B9251 /* FirebaseAuth in Frameworks */,
+				A35D8A622F76C3F7006B9251 /* FirebaseCrashlytics in Frameworks */,
+				A35D8A5C2F76C3F7006B9251 /* FirebaseAnalyticsCore in Frameworks */,
+				A35D8A602F76C3F7006B9251 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +127,12 @@
 			);
 			name = "Dog Trackin";
 			packageProductDependencies = (
+				A35D8A592F76C3F7006B9251 /* FirebaseAnalytics */,
+				A35D8A5B2F76C3F7006B9251 /* FirebaseAnalyticsCore */,
+				A35D8A5D2F76C3F7006B9251 /* FirebaseAuth */,
+				A35D8A5F2F76C3F7006B9251 /* FirebaseAuthCombine-Community */,
+				A35D8A612F76C3F7006B9251 /* FirebaseCrashlytics */,
+				A35D8A632F76C3F7006B9251 /* FirebaseDatabase */,
 			);
 			productName = "Dog Trackin";
 			productReference = A35DD5F72F6C3B2C0004A5F6 /* Dog Trackin.app */;
@@ -195,6 +216,9 @@
 			);
 			mainGroup = A35DD5EE2F6C3B2C0004A5F6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A35D8A582F76C3F7006B9251 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A35DD5F82F6C3B2C0004A5F6 /* Products */;
 			projectDirPath = "";
@@ -578,6 +602,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A35D8A582F76C3F7006B9251 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A35D8A592F76C3F7006B9251 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A35D8A582F76C3F7006B9251 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A35D8A5B2F76C3F7006B9251 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A35D8A582F76C3F7006B9251 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		A35D8A5D2F76C3F7006B9251 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A35D8A582F76C3F7006B9251 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A35D8A5F2F76C3F7006B9251 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A35D8A582F76C3F7006B9251 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		A35D8A612F76C3F7006B9251 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A35D8A582F76C3F7006B9251 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		A35D8A632F76C3F7006B9251 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A35D8A582F76C3F7006B9251 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A35DD5EF2F6C3B2C0004A5F6 /* Project object */;
 }
