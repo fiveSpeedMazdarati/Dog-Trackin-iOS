@@ -7,9 +7,15 @@
 
 import SwiftUI
 import SwiftData
+import Firebase
 
 @main
 struct Dog_TrackinApp: App {
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -26,6 +32,7 @@ struct Dog_TrackinApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(AuthViewModel())
         }
         .modelContainer(sharedModelContainer)
     }
