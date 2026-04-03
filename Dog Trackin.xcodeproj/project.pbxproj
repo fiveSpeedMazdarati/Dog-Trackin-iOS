@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A320E88D2F7FF61C0034F6CE /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = A320E88C2F7FF61C0034F6CE /* GoogleSignIn */; };
+		A320E88F2F7FF61C0034F6CE /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A320E88E2F7FF61C0034F6CE /* GoogleSignInSwift */; };
 		A35D8A5A2F76C3F7006B9251 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A35D8A592F76C3F7006B9251 /* FirebaseAnalytics */; };
 		A35D8A5C2F76C3F7006B9251 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = A35D8A5B2F76C3F7006B9251 /* FirebaseAnalyticsCore */; };
 		A35D8A5E2F76C3F7006B9251 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A35D8A5D2F76C3F7006B9251 /* FirebaseAuth */; };
@@ -38,9 +40,49 @@
 		A35DD6102F6C3B2D0004A5F6 /* Dog TrackinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog TrackinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A320E8972F7FFBC90034F6CE /* Exceptions for "Dog Trackin" folder in "Dog Trackin" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+			);
+			target = A35DD5F62F6C3B2C0004A5F6 /* Dog Trackin */;
+		};
+		A35D8A6D2F7EAFDE006B9251 /* Exceptions for "Dog Trackin" folder in "Dog TrackinTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = A35DD6052F6C3B2D0004A5F6 /* Dog TrackinTests */;
+		};
+		A35D8A6E2F7EAFDE006B9251 /* Exceptions for "Dog Trackin" folder in "Dog TrackinUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = A35DD60F2F6C3B2D0004A5F6 /* Dog TrackinUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		A320E8982F7FFBC90034F6CE /* Exceptions for "Dog Trackin" folder in "Compile Sources" phase from "Dog Trackin" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = A35DD5F32F6C3B2C0004A5F6 /* Sources */;
+			membershipExceptions = (
+				.gitignore,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A35DD5F92F6C3B2C0004A5F6 /* Dog Trackin */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A320E8972F7FFBC90034F6CE /* Exceptions for "Dog Trackin" folder in "Dog Trackin" target */,
+				A320E8982F7FFBC90034F6CE /* Exceptions for "Dog Trackin" folder in "Compile Sources" phase from "Dog Trackin" target */,
+				A35D8A6D2F7EAFDE006B9251 /* Exceptions for "Dog Trackin" folder in "Dog TrackinTests" target */,
+				A35D8A6E2F7EAFDE006B9251 /* Exceptions for "Dog Trackin" folder in "Dog TrackinUITests" target */,
+			);
 			path = "Dog Trackin";
 			sourceTree = "<group>";
 		};
@@ -64,9 +106,11 @@
 				A35D8A642F76C3F7006B9251 /* FirebaseDatabase in Frameworks */,
 				A35D8A5A2F76C3F7006B9251 /* FirebaseAnalytics in Frameworks */,
 				A35D8A5E2F76C3F7006B9251 /* FirebaseAuth in Frameworks */,
+				A320E88F2F7FF61C0034F6CE /* GoogleSignInSwift in Frameworks */,
 				A35D8A622F76C3F7006B9251 /* FirebaseCrashlytics in Frameworks */,
 				A35D8A5C2F76C3F7006B9251 /* FirebaseAnalyticsCore in Frameworks */,
 				A35D8A602F76C3F7006B9251 /* FirebaseAuthCombine-Community in Frameworks */,
+				A320E88D2F7FF61C0034F6CE /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +177,8 @@
 				A35D8A5F2F76C3F7006B9251 /* FirebaseAuthCombine-Community */,
 				A35D8A612F76C3F7006B9251 /* FirebaseCrashlytics */,
 				A35D8A632F76C3F7006B9251 /* FirebaseDatabase */,
+				A320E88C2F7FF61C0034F6CE /* GoogleSignIn */,
+				A320E88E2F7FF61C0034F6CE /* GoogleSignInSwift */,
 			);
 			productName = "Dog Trackin";
 			productReference = A35DD5F72F6C3B2C0004A5F6 /* Dog Trackin.app */;
@@ -218,6 +264,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				A35D8A582F76C3F7006B9251 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A320E88B2F7FF61C0034F6CE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A35DD5F82F6C3B2C0004A5F6 /* Products */;
@@ -419,11 +466,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dog Trackin/Dog Trackin.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FT9392G56L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dog-Trackin-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -434,7 +483,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.softwareofnote.dogtrackin.Dog-Trackin";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softwareofnote.dogtrackin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -451,11 +500,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dog Trackin/Dog Trackin.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FT9392G56L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dog-Trackin-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,7 +517,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.softwareofnote.dogtrackin.Dog-Trackin";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softwareofnote.dogtrackin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -604,6 +655,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A320E88B2F7FF61C0034F6CE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
 		A35D8A582F76C3F7006B9251 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -615,6 +674,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A320E88C2F7FF61C0034F6CE /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A320E88B2F7FF61C0034F6CE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		A320E88E2F7FF61C0034F6CE /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A320E88B2F7FF61C0034F6CE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
 		A35D8A592F76C3F7006B9251 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A35D8A582F76C3F7006B9251 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

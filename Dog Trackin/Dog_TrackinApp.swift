@@ -8,14 +8,25 @@
 import SwiftUI
 import SwiftData
 import Firebase
+import GoogleSignIn
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
+        return true
+    }
+}
 
 @main
 struct Dog_TrackinApp: App {
-    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @State private var authViewModel: AuthViewModel
+
     init() {
         FirebaseApp.configure()
+        _authViewModel = State(initialValue: AuthViewModel())
     }
-    
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -31,8 +42,11 @@ struct Dog_TrackinApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(AuthViewModel())
+            RootView()
+                .environment(authViewModel)
+                .onOpenURL { url in
+                    GIDSignIn.sharedInstance.handle(url)
+                }
         }
         .modelContainer(sharedModelContainer)
     }
