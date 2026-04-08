@@ -11,10 +11,13 @@ struct RootView: View {
     @Environment(\.authViewModel) private var authViewModel
 
     var body: some View {
-        if authViewModel.isAuthenticated {
-            ContentView()
-        } else {
-            LoginView()
+        Group {
+            if authViewModel.isAuthenticated {
+                HomeView()
+            } else {
+                LoginView()
+            }
         }
+        .animation(.default, value: authViewModel.isAuthenticated)
     }
 }
