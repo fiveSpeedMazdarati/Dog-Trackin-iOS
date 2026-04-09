@@ -16,6 +16,9 @@ struct LoginView: View {
     @State private var email = ""
     @State private var password = ""
     @State private var isSignUpMode = false
+    @State private var showResetPassword = false
+    @State private var resetEmail = ""
+    @State private var showResetConfirmation = false
 
     var body: some View {
         ScrollView {
@@ -77,6 +80,17 @@ struct LoginView: View {
                     .buttonStyle(.borderedProminent)
                     .disabled(authViewModel.isLoading || email.isEmpty || password.isEmpty)
 
+                    if !isSignUpMode {
+                        Button {
+                            resetEmail = email
+                            showResetPassword = true
+                        } label: {
+                            Text("Forgot Password?")
+                                .font(.footnote)
+                                .foregroundStyle(.tint)
+                        }
+                    }
+
                     Button {
                         withAnimation(.easeInOut(duration: 0.2)) {
                             isSignUpMode.toggle()
@@ -134,6 +148,27 @@ struct LoginView: View {
             }
         }
         .scrollBounceBehavior(.basedOnSize)
+        .alert("Reset Password", isPresented: $showResetPassword) {
+            TextField("Email", text: $resetEmail)
+                .textContentType(.emailAddress)
+                .textInputAutocapitalization(.never)
+            Button("Send Reset Link") {
+                Task {
+                    await authViewModel.resetPassword(email: resetEmail)
+                    if authViewModel.errorMessage == nil {
+                        showResetConfirmation = true
+                    }
+                }
+            }
+            Button("Cancel", role: .cancel) {}
+        } message: {
+            Text("Enter your email and we'll send you a link to reset your password.")
+        }
+        .alert("Check Your Email", isPresented: $showResetConfirmation) {
+            Button("OK") {}
+        } message: {
+            Text("If an account exists for \(resetEmail), a password reset link has been sent.")
+        }
     }
 }
 

@@ -124,6 +124,19 @@ final class AuthViewModel {
         }
     }
 
+    // MARK: - Password Reset
+
+    func resetPassword(email: String) async {
+        isLoading = true
+        errorMessage = nil
+        defer { isLoading = false }
+        do {
+            try await Auth.auth().sendPasswordReset(withEmail: email)
+        } catch {
+            errorMessage = error.localizedDescription
+        }
+    }
+
     // MARK: - Sign Out
 
     func signOut() {
