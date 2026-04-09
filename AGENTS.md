@@ -18,7 +18,6 @@ Dog Trackin is an iOS app built with SwiftUI targeting iOS. It uses Firebase for
 The project follows a **feature-based folder structure** with ViewModels using Swift's `@Observable` macro. Dependencies are passed through the SwiftUI `Environment` using custom `EnvironmentValues` entries (see `AppEnvironment.swift`).
 
 ### Key Architectural Decisions
-- **No Combine:** Use Swift concurrency (`async`/`await`) instead of Combine for all asynchronous work.
 - **@Observable over ObservableObject:** ViewModels use the `@Observable` macro, not `ObservableObject`/`@Published`.
 - **Environment-based DI:** ViewModels are injected via `@Environment` using custom `@Entry` keys defined in `AppEnvironment.swift`, not passed as init parameters or singletons.
 - **Feature folders:** Each feature lives under `Features/<FeatureName>/` containing its views, view models, and repositories.
